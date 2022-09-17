@@ -1,7 +1,9 @@
-Hi! This is a Cocktail Database React app.
+# Cocktails menu
 
-This is built to work with the external API from https://www.thecocktaildb.com/ 
+## This is a React app built to work with the external API from https://www.thecocktaildb.com/ 
 
-The amount of individual objects is not hardcoded anywhere, the code just iterates through
-a JSON list and renders as needed, so, even if the number of items changes, the app would work anyway, requiring
-no maitenance at all. 
+### After it fetches the data, the search results are filtered by the CocktailList.js component and then the rendering of every individual item is handled by SingleCocktail.js
+
+#### This app is currently deployed in:
+
+https://xtnvila.github.io/cocktails/
